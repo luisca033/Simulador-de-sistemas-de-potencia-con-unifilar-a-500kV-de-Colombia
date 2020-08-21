@@ -1,0 +1,2684 @@
+Model {
+  Name			  "unifilar_base"
+  Version		  8.5
+  MdlSubVersion		  0
+  SavedCharacterEncoding  "windows-1252"
+  GraphicalInterface {
+    NumRootInports	    0
+    NumRootOutports	    0
+    ParameterArgumentNames  ""
+    ComputedModelVersion    "1.5"
+    NumModelReferences	    0
+    NumTestPointedSignals   0
+  }
+  ScopeRefreshTime	  0.035000
+  OverrideScopeRefreshTime on
+  DisableAllScopes	  on
+  DataTypeOverride	  "UseLocalSettings"
+  DataTypeOverrideAppliesTo "AllNumericTypes"
+  MinMaxOverflowLogging	  "UseLocalSettings"
+  MinMaxOverflowArchiveMode "Overwrite"
+  FPTRunName		  "Run 1"
+  MaxMDLFileLineLength	  120
+  Object {
+    $PropName		    "BdWindowsInfo"
+    $ObjectID		    1
+    $ClassName		    "Simulink.BDWindowsInfo"
+    Object {
+      $PropName		      "WindowsInfo"
+      $ObjectID		      2
+      $ClassName	      "Simulink.WindowInfo"
+      IsActive		      [1]
+      Location		      [676.0, 0.0, 697.0, 735.0]
+      Object {
+	$PropName		"ModelBrowserInfo"
+	$ObjectID		3
+	$ClassName		"Simulink.ModelBrowserInfo"
+	Visible			[0]
+	DockPosition		"Left"
+	Width			[50]
+	Height			[50]
+	Filter			[8]
+      }
+      Object {
+	$PropName		"ExplorerBarInfo"
+	$ObjectID		4
+	$ClassName		"Simulink.ExplorerBarInfo"
+	Visible			[1]
+      }
+      Object {
+	$PropName		"EditorsInfo"
+	$ObjectID		5
+	$ClassName		"Simulink.EditorInfo"
+	IsActive		[1]
+	ViewObjType		"SimulinkTopLevel"
+	LoadSaveID		"0"
+	Extents			[647.0, 560.0]
+	ZoomFactor		[0.72876712328767124]
+	Offset			[-68.2753759398496, -4.21052631578948]
+      }
+    }
+  }
+  Created		  "Wed Sep 19 07:55:18 2018"
+  Creator		  "Luis"
+  UpdateHistory		  "UpdateHistoryNever"
+  ModifiedByFormat	  "%<Auto>"
+  LastModifiedBy	  "Luis"
+  ModifiedDateFormat	  "%<Auto>"
+  LastModifiedDate	  "Wed Sep 19 08:31:02 2018"
+  RTWModifiedTimeStamp	  459246647
+  ModelVersionFormat	  "1.%<AutoIncrement:5>"
+  ConfigurationManager	  "none"
+  SampleTimeColors	  off
+  SampleTimeAnnotations	  off
+  LibraryLinkDisplay	  "disabled"
+  WideLines		  off
+  ShowLineDimensions	  off
+  ShowPortDataTypes	  off
+  ShowDesignRanges	  off
+  ShowLoopsOnError	  on
+  IgnoreBidirectionalLines off
+  ShowStorageClass	  off
+  ShowTestPointIcons	  on
+  ShowSignalResolutionIcons on
+  ShowViewerIcons	  on
+  SortedOrder		  off
+  ExecutionContextIcon	  off
+  ShowLinearizationAnnotations on
+  ShowMarkup		  on
+  BlockNameDataTip	  off
+  BlockParametersDataTip  off
+  BlockDescriptionStringDataTip	off
+  ToolBar		  on
+  StatusBar		  on
+  BrowserShowLibraryLinks off
+  BrowserLookUnderMasks	  off
+  SimulationMode	  "normal"
+  PauseTimes		  "5"
+  NumberOfSteps		  1
+  SnapshotBufferSize	  10
+  SnapshotInterval	  10
+  NumberOfLastSnapshots	  0
+  LinearizationMsg	  "none"
+  Profile		  off
+  ParamWorkspaceSource	  "MATLABWorkspace"
+  AccelSystemTargetFile	  "accel.tlc"
+  AccelTemplateMakefile	  "accel_default_tmf"
+  AccelMakeCommand	  "make_rtw"
+  TryForcingSFcnDF	  off
+  Object {
+    $PropName		    "DataLoggingOverride"
+    $ObjectID		    6
+    $ClassName		    "Simulink.SimulationData.ModelLoggingInfo"
+    model_		    "unifilar_base"
+    overrideMode_	    [0U]
+    Array {
+      Type		      "Cell"
+      Dimension		      1
+      Cell		      "unifilar_base"
+      PropName		      "logAsSpecifiedByModels_"
+    }
+    Array {
+      Type		      "Cell"
+      Dimension		      1
+      Cell		      []
+      PropName		      "logAsSpecifiedByModelsSSIDs_"
+    }
+  }
+  RecordCoverage	  off
+  CovPath		  "/"
+  CovSaveName		  "covdata"
+  CovMetricSettings	  "dw"
+  CovNameIncrementing	  off
+  CovHtmlReporting	  on
+  CovForceBlockReductionOff on
+  CovEnableCumulative	  on
+  covSaveCumulativeToWorkspaceVar on
+  CovSaveSingleToWorkspaceVar on
+  CovCumulativeVarName	  "covCumulativeData"
+  CovCumulativeReport	  off
+  CovReportOnPause	  on
+  CovModelRefEnable	  "Off"
+  CovExternalEMLEnable	  off
+  CovSFcnEnable		  on
+  CovBoundaryAbsTol	  0.000010
+  CovBoundaryRelTol	  0.010000
+  CovUseTimeInterval	  off
+  CovStartTime		  0
+  CovStopTime		  0
+  ExtModeBatchMode	  off
+  ExtModeEnableFloating	  on
+  ExtModeTrigType	  "manual"
+  ExtModeTrigMode	  "normal"
+  ExtModeTrigPort	  "1"
+  ExtModeTrigElement	  "any"
+  ExtModeTrigDuration	  1000
+  ExtModeTrigDurationFloating "auto"
+  ExtModeTrigHoldOff	  0
+  ExtModeTrigDelay	  0
+  ExtModeTrigDirection	  "rising"
+  ExtModeTrigLevel	  0
+  ExtModeArchiveMode	  "off"
+  ExtModeAutoIncOneShot	  off
+  ExtModeIncDirWhenArm	  off
+  ExtModeAddSuffixToVar	  off
+  ExtModeWriteAllDataToWs off
+  ExtModeArmWhenConnect	  on
+  ExtModeSkipDownloadWhenConnect off
+  ExtModeLogAll		  on
+  ExtModeAutoUpdateStatusClock on
+  ShowModelReferenceBlockVersion off
+  ShowModelReferenceBlockIO off
+  Array {
+    Type		    "Handle"
+    Dimension		    1
+    Simulink.ConfigSet {
+      $ObjectID		      7
+      Version		      "1.15.0"
+      Array {
+	Type			"Handle"
+	Dimension		9
+	Simulink.SolverCC {
+	  $ObjectID		  8
+	  Version		  "1.15.0"
+	  StartTime		  "0.0"
+	  StopTime		  "10.0"
+	  AbsTol		  "auto"
+	  FixedStep		  "auto"
+	  InitialStep		  "auto"
+	  MaxNumMinSteps	  "-1"
+	  MaxOrder		  5
+	  ZcThreshold		  "auto"
+	  ConsecutiveZCsStepRelTol "10*128*eps"
+	  MaxConsecutiveZCs	  "1000"
+	  ExtrapolationOrder	  4
+	  NumberNewtonIterations  1
+	  MaxStep		  "auto"
+	  MinStep		  "auto"
+	  MaxConsecutiveMinStep	  "1"
+	  RelTol		  "1e-3"
+	  SolverMode		  "Auto"
+	  EnableConcurrentExecution off
+	  ConcurrentTasks	  off
+	  Solver		  "ode45"
+	  SolverName		  "ode45"
+	  SolverJacobianMethodControl "auto"
+	  ShapePreserveControl	  "DisableAll"
+	  ZeroCrossControl	  "UseLocalSettings"
+	  ZeroCrossAlgorithm	  "Nonadaptive"
+	  AlgebraicLoopSolver	  "TrustRegion"
+	  SolverResetMethod	  "Fast"
+	  PositivePriorityOrder	  off
+	  AutoInsertRateTranBlk	  off
+	  SampleTimeConstraint	  "Unconstrained"
+	  InsertRTBMode		  "Whenever possible"
+	}
+	Simulink.DataIOCC {
+	  $ObjectID		  9
+	  Version		  "1.15.0"
+	  Decimation		  "1"
+	  ExternalInput		  "[t, u]"
+	  FinalStateName	  "xFinal"
+	  InitialState		  "xInitial"
+	  LimitDataPoints	  on
+	  MaxDataPoints		  "1000"
+	  LoadExternalInput	  off
+	  LoadInitialState	  off
+	  SaveFinalState	  off
+	  SaveCompleteFinalSimState off
+	  SaveFormat		  "Array"
+	  SignalLoggingSaveFormat "Dataset"
+	  SaveOutput		  on
+	  SaveState		  off
+	  SignalLogging		  on
+	  DSMLogging		  on
+	  InspectSignalLogs	  off
+	  VisualizeSimOutput	  on
+	  SaveTime		  on
+	  ReturnWorkspaceOutputs  off
+	  StateSaveName		  "xout"
+	  TimeSaveName		  "tout"
+	  OutputSaveName	  "yout"
+	  SignalLoggingName	  "logsout"
+	  DSMLoggingName	  "dsmout"
+	  OutputOption		  "RefineOutputTimes"
+	  OutputTimes		  "[]"
+	  ReturnWorkspaceOutputsName "out"
+	  Refine		  "1"
+	}
+	Simulink.OptimizationCC {
+	  $ObjectID		  10
+	  Version		  "1.15.0"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    8
+	    Cell		    "BooleansAsBitfields"
+	    Cell		    "PassReuseOutputArgsAs"
+	    Cell		    "PassReuseOutputArgsThreshold"
+	    Cell		    "ZeroExternalMemoryAtStartup"
+	    Cell		    "ZeroInternalMemoryAtStartup"
+	    Cell		    "OptimizeModelRefInitCode"
+	    Cell		    "NoFixptDivByZeroProtection"
+	    Cell		    "UseSpecifiedMinMax"
+	    PropName		    "DisabledProps"
+	  }
+	  BlockReduction	  on
+	  BooleanDataType	  on
+	  ConditionallyExecuteInputs on
+	  InlineParams		  off
+	  UseDivisionForNetSlopeComputation "off"
+	  UseFloatMulNetSlope	  off
+	  DefaultUnderspecifiedDataType	"double"
+	  UseSpecifiedMinMax	  off
+	  InlineInvariantSignals  off
+	  OptimizeBlockIOStorage  on
+	  BufferReuse		  on
+	  EnhancedBackFolding	  off
+	  CachingGlobalReferences off
+	  GlobalBufferReuse	  on
+	  StrengthReduction	  off
+	  ExpressionFolding	  on
+	  BooleansAsBitfields	  off
+	  BitfieldContainerType	  "uint_T"
+	  EnableMemcpy		  on
+	  MemcpyThreshold	  64
+	  PassReuseOutputArgsAs	  "Structure reference"
+	  PassReuseOutputArgsThreshold 12
+	  ExpressionDepthLimit	  128
+	  LocalBlockOutputs	  on
+	  RollThreshold		  5
+	  StateBitsets		  off
+	  DataBitsets		  off
+	  ActiveStateOutputEnumStorageType "Native Integer"
+	  ZeroExternalMemoryAtStartup on
+	  ZeroInternalMemoryAtStartup on
+	  InitFltsAndDblsToZero	  off
+	  NoFixptDivByZeroProtection off
+	  EfficientFloat2IntCast  off
+	  EfficientMapNaN2IntZero on
+	  OptimizeModelRefInitCode off
+	  LifeSpan		  "inf"
+	  MaxStackSize		  "Inherit from target"
+	  BufferReusableBoundary  on
+	  SimCompilerOptimization "off"
+	  AccelVerboseBuild	  off
+	}
+	Simulink.DebuggingCC {
+	  $ObjectID		  11
+	  Version		  "1.15.0"
+	  RTPrefix		  "error"
+	  ConsistencyChecking	  "none"
+	  ArrayBoundsChecking	  "none"
+	  SignalInfNanChecking	  "none"
+	  SignalRangeChecking	  "none"
+	  ReadBeforeWriteMsg	  "UseLocalSettings"
+	  WriteAfterWriteMsg	  "UseLocalSettings"
+	  WriteAfterReadMsg	  "UseLocalSettings"
+	  AlgebraicLoopMsg	  "warning"
+	  ArtificialAlgebraicLoopMsg "warning"
+	  SaveWithDisabledLinksMsg "warning"
+	  SaveWithParameterizedLinksMsg	"warning"
+	  CheckSSInitialOutputMsg on
+	  UnderspecifiedInitializationDetection	"Simplified"
+	  MergeDetectMultiDrivingBlocksExec "error"
+	  CheckExecutionContextPreStartOutputMsg off
+	  CheckExecutionContextRuntimeOutputMsg	off
+	  SignalResolutionControl "UseLocalSettings"
+	  BlockPriorityViolationMsg "warning"
+	  MinStepSizeMsg	  "warning"
+	  TimeAdjustmentMsg	  "none"
+	  MaxConsecutiveZCsMsg	  "error"
+	  MaskedZcDiagnostic	  "warning"
+	  IgnoredZcDiagnostic	  "warning"
+	  SolverPrmCheckMsg	  "none"
+	  InheritedTsInSrcMsg	  "warning"
+	  DiscreteInheritContinuousMsg "warning"
+	  MultiTaskDSMMsg	  "error"
+	  MultiTaskCondExecSysMsg "error"
+	  MultiTaskRateTransMsg	  "error"
+	  SingleTaskRateTransMsg  "none"
+	  TasksWithSamePriorityMsg "warning"
+	  SigSpecEnsureSampleTimeMsg "warning"
+	  CheckMatrixSingularityMsg "none"
+	  IntegerOverflowMsg	  "warning"
+	  Int32ToFloatConvMsg	  "warning"
+	  ParameterDowncastMsg	  "error"
+	  ParameterOverflowMsg	  "error"
+	  ParameterUnderflowMsg	  "none"
+	  ParameterPrecisionLossMsg "warning"
+	  ParameterTunabilityLossMsg "warning"
+	  FixptConstUnderflowMsg  "none"
+	  FixptConstOverflowMsg	  "none"
+	  FixptConstPrecisionLossMsg "none"
+	  UnderSpecifiedDataTypeMsg "none"
+	  UnnecessaryDatatypeConvMsg "none"
+	  VectorMatrixConversionMsg "none"
+	  InvalidFcnCallConnMsg	  "error"
+	  FcnCallInpInsideContextMsg "EnableAllAsError"
+	  SignalLabelMismatchMsg  "none"
+	  UnconnectedInputMsg	  "warning"
+	  UnconnectedOutputMsg	  "warning"
+	  UnconnectedLineMsg	  "warning"
+	  SFcnCompatibilityMsg	  "none"
+	  FrameProcessingCompatibilityMsg "error"
+	  UniqueDataStoreMsg	  "none"
+	  BusObjectLabelMismatch  "warning"
+	  RootOutportRequireBusObject "warning"
+	  AssertControl		  "UseLocalSettings"
+	  ModelReferenceIOMsg	  "none"
+	  ModelReferenceMultiInstanceNormalModeStructChecksumCheck "error"
+	  ModelReferenceVersionMismatchMessage "none"
+	  ModelReferenceIOMismatchMessage "none"
+	  UnknownTsInhSupMsg	  "warning"
+	  ModelReferenceDataLoggingMessage "warning"
+	  ModelReferenceSymbolNameMessage "warning"
+	  ModelReferenceExtraNoncontSigs "error"
+	  StateNameClashWarn	  "none"
+	  SimStateInterfaceChecksumMismatchMsg "warning"
+	  SimStateOlderReleaseMsg "error"
+	  InitInArrayFormatMsg	  "warning"
+	  StrictBusMsg		  "ErrorLevel1"
+	  BusNameAdapt		  "WarnAndRepair"
+	  NonBusSignalsTreatedAsBus "none"
+	  BlockIODiagnostic	  "none"
+	  SFUnusedDataAndEventsDiag "warning"
+	  SFUnexpectedBacktrackingDiag "warning"
+	  SFInvalidInputDataAccessInChartInitDiag "warning"
+	  SFNoUnconditionalDefaultTransitionDiag "warning"
+	  SFTransitionOutsideNaturalParentDiag "warning"
+	  SFUnconditionalTransitionShadowingDiag "warning"
+	  SFUndirectedBroadcastEventsDiag "warning"
+	  SFTransitionActionBeforeConditionDiag	"warning"
+	  SFOutputUsedAsStateInMooreChartDiag "error"
+	  IntegerSaturationMsg	  "warning"
+	}
+	Simulink.HardwareCC {
+	  $ObjectID		  12
+	  Version		  "1.15.0"
+	  ProdBitPerChar	  8
+	  ProdBitPerShort	  16
+	  ProdBitPerInt		  32
+	  ProdBitPerLong	  32
+	  ProdBitPerLongLong	  64
+	  ProdBitPerFloat	  32
+	  ProdBitPerDouble	  64
+	  ProdBitPerPointer	  32
+	  ProdLargestAtomicInteger "Char"
+	  ProdLargestAtomicFloat  "None"
+	  ProdIntDivRoundTo	  "Undefined"
+	  ProdEndianess		  "Unspecified"
+	  ProdWordSize		  32
+	  ProdShiftRightIntArith  on
+	  ProdLongLongMode	  off
+	  ProdHWDeviceType	  "32-bit Generic"
+	  TargetBitPerChar	  8
+	  TargetBitPerShort	  16
+	  TargetBitPerInt	  32
+	  TargetBitPerLong	  32
+	  TargetBitPerLongLong	  64
+	  TargetBitPerFloat	  32
+	  TargetBitPerDouble	  64
+	  TargetBitPerPointer	  32
+	  TargetLargestAtomicInteger "Char"
+	  TargetLargestAtomicFloat "None"
+	  TargetShiftRightIntArith on
+	  TargetLongLongMode	  off
+	  TargetIntDivRoundTo	  "Undefined"
+	  TargetEndianess	  "Unspecified"
+	  TargetWordSize	  32
+	  TargetPreprocMaxBitsSint 32
+	  TargetPreprocMaxBitsUint 32
+	  TargetHWDeviceType	  "Specified"
+	  TargetUnknown		  off
+	  ProdEqTarget		  on
+	}
+	Simulink.ModelReferenceCC {
+	  $ObjectID		  13
+	  Version		  "1.15.0"
+	  UpdateModelReferenceTargets "IfOutOfDateOrStructuralChange"
+	  CheckModelReferenceTargetMessage "error"
+	  EnableParallelModelReferenceBuilds off
+	  ParallelModelReferenceErrorOnInvalidPool on
+	  ParallelModelReferenceMATLABWorkerInit "None"
+	  ModelReferenceNumInstancesAllowed "Multi"
+	  PropagateVarSize	  "Infer from blocks in model"
+	  ModelReferencePassRootInputsByReference on
+	  ModelReferenceMinAlgLoopOccurrences off
+	  PropagateSignalLabelsOutOfModel off
+	  SupportModelReferenceSimTargetCustomCode off
+	}
+	Simulink.SFSimCC {
+	  $ObjectID		  14
+	  Version		  "1.15.0"
+	  SFSimOverflowDetection  on
+	  SFSimEcho		  on
+	  SimCtrlC		  on
+	  SimIntegrity		  on
+	  SimUseLocalCustomCode	  off
+	  SimParseCustomCode	  on
+	  SimBuildMode		  "sf_incremental_build"
+	  SimGenImportedTypeDefs  off
+	}
+	Simulink.RTWCC {
+	  $BackupClass		  "Simulink.RTWCC"
+	  $ObjectID		  15
+	  Version		  "1.15.0"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    16
+	    Cell		    "IncludeHyperlinkInReport"
+	    Cell		    "GenerateTraceInfo"
+	    Cell		    "GenerateTraceReport"
+	    Cell		    "GenerateTraceReportSl"
+	    Cell		    "GenerateTraceReportSf"
+	    Cell		    "GenerateTraceReportEml"
+	    Cell		    "PortableWordSizes"
+	    Cell		    "GenerateWebview"
+	    Cell		    "GenerateCodeMetricsReport"
+	    Cell		    "GenerateCodeReplacementReport"
+	    Cell		    "GenerateMissedCodeReplacementReport"
+	    Cell		    "GenerateErtSFunction"
+	    Cell		    "CreateSILPILBlock"
+	    Cell		    "CodeExecutionProfiling"
+	    Cell		    "CodeProfilingSaveOptions"
+	    Cell		    "CodeProfilingInstrumentation"
+	    PropName		    "DisabledProps"
+	  }
+	  SystemTargetFile	  "grt.tlc"
+	  TLCOptions		  ""
+	  GenCodeOnly		  off
+	  MakeCommand		  "make_rtw"
+	  GenerateMakefile	  on
+	  PackageGeneratedCodeAndArtifacts off
+	  PackageName		  ""
+	  TemplateMakefile	  "grt_default_tmf"
+	  PostCodeGenCommand	  ""
+	  Description		  ""
+	  GenerateReport	  off
+	  SaveLog		  off
+	  RTWVerbose		  on
+	  RetainRTWFile		  off
+	  ProfileTLC		  off
+	  TLCDebug		  off
+	  TLCCoverage		  off
+	  TLCAssert		  off
+	  RTWUseLocalCustomCode	  off
+	  RTWUseSimCustomCode	  off
+	  CustomSourceCode	  ""
+	  CustomHeaderCode	  ""
+	  CustomInclude		  ""
+	  CustomSource		  ""
+	  CustomLibrary		  ""
+	  CustomInitializer	  ""
+	  CustomTerminator	  ""
+	  Toolchain		  "Automatically locate an installed toolchain"
+	  BuildConfiguration	  "Faster Builds"
+	  IncludeHyperlinkInReport off
+	  LaunchReport		  off
+	  PortableWordSizes	  off
+	  CreateSILPILBlock	  "None"
+	  CodeExecutionProfiling  off
+	  CodeExecutionProfileVariable "executionProfile"
+	  CodeProfilingSaveOptions "SummaryOnly"
+	  CodeProfilingInstrumentation off
+	  SILDebugging		  off
+	  TargetLang		  "C"
+	  IncludeBusHierarchyInRTWFileBlockHierarchyMap	off
+	  GenerateTraceInfo	  off
+	  GenerateTraceReport	  off
+	  GenerateTraceReportSl	  off
+	  GenerateTraceReportSf	  off
+	  GenerateTraceReportEml  off
+	  GenerateWebview	  off
+	  GenerateCodeMetricsReport off
+	  GenerateCodeReplacementReport	off
+	  GenerateMissedCodeReplacementReport off
+	  RTWCompilerOptimization "off"
+	  RTWCustomCompilerOptimizations ""
+	  CheckMdlBeforeBuild	  "Off"
+	  SharedConstantsCachingThreshold 1024
+	  Array {
+	    Type		    "Handle"
+	    Dimension		    2
+	    Simulink.CodeAppCC {
+	      $ObjectID		      16
+	      Version		      "1.15.0"
+	      Array {
+		Type			"Cell"
+		Dimension		24
+		Cell			"IgnoreCustomStorageClasses"
+		Cell			"ParameterTuningSideEffectCode"
+		Cell			"IgnoreTestpoints"
+		Cell			"InsertBlockDesc"
+		Cell			"InsertPolySpaceComments"
+		Cell			"SFDataObjDesc"
+		Cell			"MATLABFcnDesc"
+		Cell			"SimulinkDataObjDesc"
+		Cell			"DefineNamingRule"
+		Cell			"SignalNamingRule"
+		Cell			"ParamNamingRule"
+		Cell			"InternalIdentifier"
+		Cell			"InlinedPrmAccess"
+		Cell			"CustomSymbolStr"
+		Cell			"CustomSymbolStrGlobalVar"
+		Cell			"CustomSymbolStrType"
+		Cell			"CustomSymbolStrField"
+		Cell			"CustomSymbolStrFcn"
+		Cell			"CustomSymbolStrFcnArg"
+		Cell			"CustomSymbolStrBlkIO"
+		Cell			"CustomSymbolStrTmpVar"
+		Cell			"CustomSymbolStrMacro"
+		Cell			"CustomSymbolStrUtil"
+		Cell			"ReqsInCode"
+		PropName		"DisabledProps"
+	      }
+	      ForceParamTrailComments off
+	      GenerateComments	      on
+	      CommentStyle	      "Auto"
+	      IgnoreCustomStorageClasses on
+	      IgnoreTestpoints	      off
+	      IncHierarchyInIds	      off
+	      MaxIdLength	      31
+	      PreserveName	      off
+	      PreserveNameWithParent  off
+	      ShowEliminatedStatement off
+	      OperatorAnnotations     off
+	      IncAutoGenComments      off
+	      SimulinkDataObjDesc     off
+	      SFDataObjDesc	      off
+	      MATLABFcnDesc	      off
+	      IncDataTypeInIds	      off
+	      MangleLength	      1
+	      CustomSymbolStrGlobalVar "$R$N$M"
+	      CustomSymbolStrType     "$N$R$M_T"
+	      CustomSymbolStrField    "$N$M"
+	      CustomSymbolStrFcn      "$R$N$M$F"
+	      CustomSymbolStrFcnArg   "rt$I$N$M"
+	      CustomSymbolStrBlkIO    "rtb_$N$M"
+	      CustomSymbolStrTmpVar   "$N$M"
+	      CustomSymbolStrMacro    "$R$N$M"
+	      CustomSymbolStrUtil     "$N$C"
+	      DefineNamingRule	      "None"
+	      ParamNamingRule	      "None"
+	      SignalNamingRule	      "None"
+	      InsertBlockDesc	      off
+	      InsertPolySpaceComments off
+	      SimulinkBlockComments   on
+	      MATLABSourceComments    off
+	      EnableCustomComments    off
+	      InternalIdentifier      "Shortened"
+	      InlinedPrmAccess	      "Literals"
+	      ReqsInCode	      off
+	      UseSimReservedNames     off
+	    }
+	    Simulink.GRTTargetCC {
+	      $BackupClass	      "Simulink.TargetCC"
+	      $ObjectID		      17
+	      Version		      "1.15.0"
+	      Array {
+		Type			"Cell"
+		Dimension		13
+		Cell			"GeneratePreprocessorConditionals"
+		Cell			"IncludeMdlTerminateFcn"
+		Cell			"SuppressErrorStatus"
+		Cell			"ERTCustomFileBanners"
+		Cell			"GenerateSampleERTMain"
+		Cell			"GenerateTestInterfaces"
+		Cell			"ModelStepFunctionPrototypeControlCompliant"
+		Cell			"GenerateAllocFcn"
+		Cell			"PurelyIntegerCode"
+		Cell			"SupportComplex"
+		Cell			"SupportAbsoluteTime"
+		Cell			"SupportContinuousTime"
+		Cell			"SupportNonInlinedSFcns"
+		PropName		"DisabledProps"
+	      }
+	      TargetFcnLib	      "ansi_tfl_table_tmw.mat"
+	      TargetLibSuffix	      ""
+	      TargetPreCompLibLocation ""
+	      GenFloatMathFcnCalls    "NOT IN USE"
+	      TargetLangStandard      "C89/C90 (ANSI)"
+	      CodeReplacementLibrary  "None"
+	      UtilityFuncGeneration   "Auto"
+	      ERTMultiwordTypeDef     "System defined"
+	      ERTMultiwordLength      256
+	      MultiwordLength	      2048
+	      GenerateFullHeader      on
+	      InferredTypesCompatibility off
+	      GenerateSampleERTMain   off
+	      GenerateTestInterfaces  off
+	      ModelReferenceCompliant on
+	      ParMdlRefBuildCompliant on
+	      CompOptLevelCompliant   on
+	      ConcurrentExecutionCompliant on
+	      IncludeMdlTerminateFcn  on
+	      GeneratePreprocessorConditionals "Disable all"
+	      CombineOutputUpdateFcns on
+	      CombineSignalStateStructs	off
+	      SuppressErrorStatus     off
+	      ERTFirstTimeCompliant   off
+	      IncludeFileDelimiter    "Auto"
+	      ERTCustomFileBanners    off
+	      SupportAbsoluteTime     on
+	      LogVarNameModifier      "rt_"
+	      MatFileLogging	      on
+	      MultiInstanceERTCode    off
+	      CodeInterfacePackaging  "Nonreusable function"
+	      SupportNonFinite	      on
+	      SupportComplex	      on
+	      PurelyIntegerCode	      off
+	      SupportContinuousTime   on
+	      SupportNonInlinedSFcns  on
+	      SupportVariableSizeSignals off
+	      ParenthesesLevel	      "Nominal"
+	      CastingMode	      "Nominal"
+	      MATLABClassNameForMDSCustomization "Simulink.SoftwareTarget.GRTCustomization"
+	      ModelStepFunctionPrototypeControlCompliant off
+	      CPPClassGenCompliant    on
+	      AutosarCompliant	      off
+	      GRTInterface	      off
+	      GenerateAllocFcn	      off
+	      GenerateSharedConstants on
+	      UseMalloc		      off
+	      ExtMode		      off
+	      ExtModeStaticAlloc      off
+	      ExtModeTesting	      off
+	      ExtModeStaticAllocSize  1000000
+	      ExtModeTransport	      0
+	      ExtModeMexFile	      "ext_comm"
+	      ExtModeIntrfLevel	      "Level1"
+	      RTWCAPISignals	      off
+	      RTWCAPIParams	      off
+	      RTWCAPIStates	      off
+	      RTWCAPIRootIO	      off
+	      GenerateASAP2	      off
+	      MultiInstanceErrorCode  "Error"
+	    }
+	    PropName		    "Components"
+	  }
+	}
+	hdlcoderui.hdlcc {
+	  $ObjectID		  18
+	  Version		  "1.15.0"
+	  Description		  "HDL Coder custom configuration component"
+	  Name			  "HDL Coder"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    1
+	    Cell		    " "
+	    PropName		    "HDLConfigFile"
+	  }
+	  HDLCActiveTab		  "0"
+	}
+	PropName		"Components"
+      }
+      Name		      "Configuration"
+      CurrentDlgPage	      "Solver"
+      ConfigPrmDlgPosition     [ 143, 64, 1223, 704 ] 
+    }
+    PropName		    "ConfigurationSets"
+  }
+  Simulink.ConfigSet {
+    $PropName		    "ActiveConfigurationSet"
+    $ObjectID		    7
+  }
+  Object {
+    $PropName		    "DataTransfer"
+    $ObjectID		    19
+    $ClassName		    "Simulink.GlobalDataTransfer"
+    DefaultTransitionBetweenSyncTasks "Ensure deterministic transfer (maximum delay)"
+    DefaultTransitionBetweenAsyncTasks "Ensure data integrity only"
+    DefaultTransitionBetweenContTasks "Ensure deterministic transfer (minimum delay)"
+    DefaultExtrapolationMethodBetweenContTasks "None"
+    AutoInsertRateTranBlk   [0]
+  }
+  ExplicitPartitioning	  off
+  BlockDefaults {
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    NamePlacement	    "normal"
+    FontName		    "Helvetica"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+    ShowName		    on
+    BlockRotation	    0
+    BlockMirror		    off
+  }
+  AnnotationDefaults {
+    HorizontalAlignment	    "center"
+    VerticalAlignment	    "middle"
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    FontName		    "Helvetica"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+    UseDisplayTextAsClickCallback off
+  }
+  LineDefaults {
+    FontName		    "Helvetica"
+    FontSize		    9
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+  }
+  MaskDefaults {
+    SelfModifiable	    "off"
+    IconFrame		    "on"
+    IconOpaque		    "on"
+    RunInitForIconRedraw    "off"
+    IconRotate		    "none"
+    PortRotate		    "default"
+    IconUnits		    "autoscale"
+  }
+  MaskParameterDefaults {
+    Evaluate		    "on"
+    Tunable		    "on"
+    NeverSave		    "off"
+    Internal		    "off"
+    ReadOnly		    "off"
+    Enabled		    "on"
+    Visible		    "on"
+    ToolTip		    "on"
+  }
+  BlockParameterDefaults {
+    Block {
+      BlockType		      PMComponent
+      SubClassName	      "unknown"
+    }
+  }
+  System {
+    Name		    "unifilar_base"
+    Location		    [676, 0, 1373, 735]
+    Open		    on
+    ModelBrowserVisibility  off
+    ModelBrowserWidth	    200
+    ScreenColor		    "white"
+    PaperOrientation	    "landscape"
+    PaperPositionMode	    "auto"
+    PaperType		    "A4"
+    PaperUnits		    "centimeters"
+    TiledPaperMargins	    [1.270000, 1.270000, 1.270000, 1.270000]
+    TiledPageScale	    1
+    ShowPageBoundaries	    off
+    ZoomFactor		    "73"
+    ReportName		    "simulink-default.rpt"
+    SIDHighWatermark	    "42"
+    Block {
+      BlockType		      PMComponent
+      Name		      "Bacata Nodo 6"
+      SID		      "6"
+      Tag		      "PSATblock"
+      Description	      "Connection"
+      Ports		      [0, 0, 0, 0, 0, 1, 2]
+      Position		      [607, 445, 663, 450]
+      ZOrder		      6
+      BlockRotation	      270
+      BlockMirror	      on
+      BackgroundColor	      "black"
+      PhysicalDomain	      "psatdomain"
+      LeftPortType	      "p1"
+      RightPortType	      "p1"
+      LConnTagsString	      "__newl0"
+      RConnTagsString	      "__newr0|__newr1"
+      Object {
+	$PropName		"MaskObject"
+	$ObjectID		20
+	$ClassName		"Simulink.Mask"
+	Type			"Bus"
+	Description		"Bus block."
+	Initialization		"fm_inout\n\n"
+	SelfModifiable		"on"
+	Display			"plot([0 1 1 0 0],[0 0 1 1 0])"
+	IconFrame		"off"
+	IconRotate		"port"
+	Array {
+	  Type			  "Simulink.MaskParameter"
+	  Dimension		  6
+	  Object {
+	    $ObjectID		    21
+	    Type		    "edit"
+	    Name		    "in"
+	    Prompt		    "Number of inputs:"
+	    Value		    "1"
+	  }
+	  Object {
+	    $ObjectID		    22
+	    Type		    "edit"
+	    Name		    "out"
+	    Prompt		    "Number of outputs:"
+	    Value		    "2"
+	  }
+	  Object {
+	    $ObjectID		    23
+	    Type		    "edit"
+	    Name		    "p2q"
+	    Prompt		    "Voltage Rating [kV]"
+	    Value		    "400"
+	  }
+	  Object {
+	    $ObjectID		    24
+	    Type		    "edit"
+	    Name		    "p3_4q"
+	    Prompt		    "Voltage initial guess [p.u.  rad]"
+	    Value		    "[1.00  0.00]"
+	  }
+	  Object {
+	    $ObjectID		    25
+	    Type		    "edit"
+	    Name		    "p5q"
+	    Prompt		    "Area number"
+	    Value		    "1"
+	    Callback		    "fm_block"
+	  }
+	  Object {
+	    $ObjectID		    26
+	    Type		    "edit"
+	    Name		    "p6q"
+	    Prompt		    "Region number"
+	    Value		    "1"
+	  }
+	  PropName		  "Parameters"
+	}
+      }
+    }
+    Block {
+      BlockType		      PMComponent
+      Name		      "Bolivar Nodo 1"
+      SID		      "1"
+      Tag		      "PSATblock"
+      Description	      "Connection"
+      Ports		      [0, 0, 0, 0, 0, 0, 2]
+      Position		      [297, 20, 353, 25]
+      ZOrder		      1
+      BlockRotation	      270
+      BlockMirror	      on
+      BackgroundColor	      "black"
+      PhysicalDomain	      "psatdomain"
+      LeftPortType	      "p1"
+      RightPortType	      "p1"
+      RConnTagsString	      "__newr0|__newr1"
+      Object {
+	$PropName		"MaskObject"
+	$ObjectID		27
+	$ClassName		"Simulink.Mask"
+	Type			"Bus"
+	Description		"Bus block."
+	Initialization		"fm_inout\n\n"
+	SelfModifiable		"on"
+	Display			"plot([0 1 1 0 0],[0 0 1 1 0])"
+	IconFrame		"off"
+	IconRotate		"port"
+	Array {
+	  Type			  "Simulink.MaskParameter"
+	  Dimension		  6
+	  Object {
+	    $ObjectID		    28
+	    Type		    "edit"
+	    Name		    "in"
+	    Prompt		    "Number of inputs:"
+	    Value		    "0"
+	  }
+	  Object {
+	    $ObjectID		    29
+	    Type		    "edit"
+	    Name		    "out"
+	    Prompt		    "Number of outputs:"
+	    Value		    "2"
+	  }
+	  Object {
+	    $ObjectID		    30
+	    Type		    "edit"
+	    Name		    "p2q"
+	    Prompt		    "Voltage Rating [kV]"
+	    Value		    "400"
+	  }
+	  Object {
+	    $ObjectID		    31
+	    Type		    "edit"
+	    Name		    "p3_4q"
+	    Prompt		    "Voltage initial guess [p.u.  rad]"
+	    Value		    "[1.00  0.00]"
+	  }
+	  Object {
+	    $ObjectID		    32
+	    Type		    "edit"
+	    Name		    "p5q"
+	    Prompt		    "Area number"
+	    Value		    "1"
+	    Callback		    "fm_block"
+	  }
+	  Object {
+	    $ObjectID		    33
+	    Type		    "edit"
+	    Name		    "p6q"
+	    Prompt		    "Region number"
+	    Value		    "1"
+	  }
+	  PropName		  "Parameters"
+	}
+      }
+    }
+    Block {
+      BlockType		      PMComponent
+      Name		      "Cerramotoso Nodo 11"
+      SID		      "11"
+      Tag		      "PSATblock"
+      Description	      "Connection"
+      Ports		      [0, 0, 0, 0, 0, 2, 2]
+      Position		      [100, 255, 155, 260]
+      ZOrder		      11
+      BlockRotation	      270
+      BlockMirror	      on
+      BackgroundColor	      "black"
+      PhysicalDomain	      "psatdomain"
+      LeftPortType	      "p1"
+      RightPortType	      "p1"
+      LConnTagsString	      "__newl0|__newl1"
+      RConnTagsString	      "__newr0|__newr1"
+      Object {
+	$PropName		"MaskObject"
+	$ObjectID		34
+	$ClassName		"Simulink.Mask"
+	Type			"Bus"
+	Description		"Bus block."
+	Initialization		"fm_inout\n\n"
+	SelfModifiable		"on"
+	Display			"plot([0 1 1 0 0],[0 0 1 1 0])"
+	IconFrame		"off"
+	IconRotate		"port"
+	Array {
+	  Type			  "Simulink.MaskParameter"
+	  Dimension		  6
+	  Object {
+	    $ObjectID		    35
+	    Type		    "edit"
+	    Name		    "in"
+	    Prompt		    "Number of inputs:"
+	    Value		    "2"
+	  }
+	  Object {
+	    $ObjectID		    36
+	    Type		    "edit"
+	    Name		    "out"
+	    Prompt		    "Number of outputs:"
+	    Value		    "2"
+	  }
+	  Object {
+	    $ObjectID		    37
+	    Type		    "edit"
+	    Name		    "p2q"
+	    Prompt		    "Voltage Rating [kV]"
+	    Value		    "400"
+	  }
+	  Object {
+	    $ObjectID		    38
+	    Type		    "edit"
+	    Name		    "p3_4q"
+	    Prompt		    "Voltage initial guess [p.u.  rad]"
+	    Value		    "[1.00  0.00]"
+	  }
+	  Object {
+	    $ObjectID		    39
+	    Type		    "edit"
+	    Name		    "p5q"
+	    Prompt		    "Area number"
+	    Value		    "1"
+	    Callback		    "fm_block"
+	  }
+	  Object {
+	    $ObjectID		    40
+	    Type		    "edit"
+	    Name		    "p6q"
+	    Prompt		    "Region number"
+	    Value		    "1"
+	  }
+	  PropName		  "Parameters"
+	}
+      }
+    }
+    Block {
+      BlockType		      PMComponent
+      Name		      "Chinu Nodo 10"
+      SID		      "10"
+      Tag		      "PSATblock"
+      Description	      "Connection"
+      Ports		      [0, 0, 0, 0, 0, 2, 2]
+      Position		      [100, 135, 155, 140]
+      ZOrder		      10
+      BlockRotation	      270
+      BlockMirror	      on
+      BackgroundColor	      "black"
+      PhysicalDomain	      "psatdomain"
+      LeftPortType	      "p1"
+      RightPortType	      "p1"
+      LConnTagsString	      "__newl0|__newl1"
+      RConnTagsString	      "__newr0|__newr1"
+      Object {
+	$PropName		"MaskObject"
+	$ObjectID		41
+	$ClassName		"Simulink.Mask"
+	Type			"Bus"
+	Description		"Bus block."
+	Initialization		"fm_inout\n\n"
+	SelfModifiable		"on"
+	Display			"plot([0 1 1 0 0],[0 0 1 1 0])"
+	IconFrame		"off"
+	IconRotate		"port"
+	Array {
+	  Type			  "Simulink.MaskParameter"
+	  Dimension		  6
+	  Object {
+	    $ObjectID		    42
+	    Type		    "edit"
+	    Name		    "in"
+	    Prompt		    "Number of inputs:"
+	    Value		    "2"
+	  }
+	  Object {
+	    $ObjectID		    43
+	    Type		    "edit"
+	    Name		    "out"
+	    Prompt		    "Number of outputs:"
+	    Value		    "2"
+	  }
+	  Object {
+	    $ObjectID		    44
+	    Type		    "edit"
+	    Name		    "p2q"
+	    Prompt		    "Voltage Rating [kV]"
+	    Value		    "400"
+	  }
+	  Object {
+	    $ObjectID		    45
+	    Type		    "edit"
+	    Name		    "p3_4q"
+	    Prompt		    "Voltage initial guess [p.u.  rad]"
+	    Value		    "[1.00  0.00]"
+	  }
+	  Object {
+	    $ObjectID		    46
+	    Type		    "edit"
+	    Name		    "p5q"
+	    Prompt		    "Area number"
+	    Value		    "1"
+	    Callback		    "fm_block"
+	  }
+	  Object {
+	    $ObjectID		    47
+	    Type		    "edit"
+	    Name		    "p6q"
+	    Prompt		    "Region number"
+	    Value		    "1"
+	  }
+	  PropName		  "Parameters"
+	}
+      }
+    }
+    Block {
+      BlockType		      PMComponent
+      Name		      "Copey Nodo 3"
+      SID		      "3"
+      Tag		      "PSATblock"
+      Description	      "Connection"
+      Ports		      [0, 0, 0, 0, 0, 1, 3]
+      Position		      [561, 185, 619, 190]
+      ZOrder		      3
+      BlockRotation	      270
+      BlockMirror	      on
+      BackgroundColor	      "black"
+      PhysicalDomain	      "psatdomain"
+      LeftPortType	      "p1"
+      RightPortType	      "p1"
+      LConnTagsString	      "__newl0"
+      RConnTagsString	      "__newr0|__newr1|__newr2"
+      Object {
+	$PropName		"MaskObject"
+	$ObjectID		48
+	$ClassName		"Simulink.Mask"
+	Type			"Bus"
+	Description		"Bus block."
+	Initialization		"fm_inout\n\n"
+	SelfModifiable		"on"
+	Display			"plot([0 1 1 0 0],[0 0 1 1 0])"
+	IconFrame		"off"
+	IconRotate		"port"
+	Array {
+	  Type			  "Simulink.MaskParameter"
+	  Dimension		  6
+	  Object {
+	    $ObjectID		    49
+	    Type		    "edit"
+	    Name		    "in"
+	    Prompt		    "Number of inputs:"
+	    Value		    "1"
+	  }
+	  Object {
+	    $ObjectID		    50
+	    Type		    "edit"
+	    Name		    "out"
+	    Prompt		    "Number of outputs:"
+	    Value		    "3"
+	  }
+	  Object {
+	    $ObjectID		    51
+	    Type		    "edit"
+	    Name		    "p2q"
+	    Prompt		    "Voltage Rating [kV]"
+	    Value		    "400"
+	  }
+	  Object {
+	    $ObjectID		    52
+	    Type		    "edit"
+	    Name		    "p3_4q"
+	    Prompt		    "Voltage initial guess [p.u.  rad]"
+	    Value		    "[1.00  0.00]"
+	  }
+	  Object {
+	    $ObjectID		    53
+	    Type		    "edit"
+	    Name		    "p5q"
+	    Prompt		    "Area number"
+	    Value		    "1"
+	    Callback		    "fm_block"
+	  }
+	  Object {
+	    $ObjectID		    54
+	    Type		    "edit"
+	    Name		    "p6q"
+	    Prompt		    "Region number"
+	    Value		    "1"
+	  }
+	  PropName		  "Parameters"
+	}
+      }
+    }
+    Block {
+      BlockType		      PMComponent
+      Name		      "Esmeralda Nodo 8"
+      SID		      "8"
+      Tag		      "PSATblock"
+      Description	      "Connection"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [217, 555, 273, 560]
+      ZOrder		      8
+      BlockRotation	      270
+      BlockMirror	      on
+      BackgroundColor	      "black"
+      PhysicalDomain	      "psatdomain"
+      LeftPortType	      "p1"
+      RightPortType	      "p1"
+      LConnTagsString	      "__newl0"
+      RConnTagsString	      "__newr0"
+      Object {
+	$PropName		"MaskObject"
+	$ObjectID		55
+	$ClassName		"Simulink.Mask"
+	Type			"Bus"
+	Description		"Bus block."
+	Initialization		"fm_inout\n\n"
+	SelfModifiable		"on"
+	Display			"plot([0 1 1 0 0],[0 0 1 1 0])"
+	IconFrame		"off"
+	IconRotate		"port"
+	Array {
+	  Type			  "Simulink.MaskParameter"
+	  Dimension		  6
+	  Object {
+	    $ObjectID		    56
+	    Type		    "edit"
+	    Name		    "in"
+	    Prompt		    "Number of inputs:"
+	    Value		    "1"
+	  }
+	  Object {
+	    $ObjectID		    57
+	    Type		    "edit"
+	    Name		    "out"
+	    Prompt		    "Number of outputs:"
+	    Value		    "1"
+	  }
+	  Object {
+	    $ObjectID		    58
+	    Type		    "edit"
+	    Name		    "p2q"
+	    Prompt		    "Voltage Rating [kV]"
+	    Value		    "400"
+	  }
+	  Object {
+	    $ObjectID		    59
+	    Type		    "edit"
+	    Name		    "p3_4q"
+	    Prompt		    "Voltage initial guess [p.u.  rad]"
+	    Value		    "[1.00  0.00]"
+	  }
+	  Object {
+	    $ObjectID		    60
+	    Type		    "edit"
+	    Name		    "p5q"
+	    Prompt		    "Area number"
+	    Value		    "1"
+	    Callback		    "fm_block"
+	  }
+	  Object {
+	    $ObjectID		    61
+	    Type		    "edit"
+	    Name		    "p6q"
+	    Prompt		    "Region number"
+	    Value		    "1"
+	  }
+	  PropName		  "Parameters"
+	}
+      }
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Line"
+      SID		      "13"
+      Tag		      "PSATblock"
+      Description	      "Power Flow"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [395, 170, 455, 180]
+      ZOrder		      13
+      ShowName		      off
+      LibraryVersion	      "1.1192"
+      SourceBlock	      "fm_lib/Power Flow/Line"
+      SourceType	      "Line"
+      LConnTagsString	      "__newl0"
+      RConnTagsString	      "__newr0"
+      p3_4_5q		      "[100  400  60]"
+      p6q		      "0"
+      p8q		      "0.01"
+      p9q		      "0.10"
+      p10q		      "1e-3"
+      p13_14_15q	      "[0.0  0.0  0.0]"
+      p16q		      on
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Line1"
+      SID		      "14"
+      Tag		      "PSATblock"
+      Description	      "Power Flow"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [585, 200, 595, 260]
+      ZOrder		      14
+      BlockRotation	      270
+      BlockMirror	      on
+      NamePlacement	      "alternate"
+      ShowName		      off
+      LibraryVersion	      "1.1192"
+      SourceBlock	      "fm_lib/Power Flow/Line"
+      SourceType	      "Line"
+      LConnTagsString	      "__newl0"
+      RConnTagsString	      "__newr0"
+      p3_4_5q		      "[100  400  60]"
+      p6q		      "0"
+      p8q		      "0.01"
+      p9q		      "0.10"
+      p10q		      "1e-3"
+      p13_14_15q	      "[0.0  0.0  0.0]"
+      p16q		      on
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Line10"
+      SID		      "42"
+      Tag		      "PSATblock"
+      Description	      "Power Flow"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [135, 165, 145, 225]
+      ZOrder		      41
+      BlockRotation	      270
+      BlockMirror	      on
+      NamePlacement	      "alternate"
+      ShowName		      off
+      LibraryVersion	      "1.1192"
+      SourceBlock	      "fm_lib/Power Flow/Line"
+      SourceType	      "Line"
+      LConnTagsString	      "__newl0"
+      RConnTagsString	      "__newr0"
+      p3_4_5q		      "[100  400  60]"
+      p6q		      "0"
+      p8q		      "0.01"
+      p9q		      "0.10"
+      p10q		      "1e-3"
+      p13_14_15q	      "[0.0  0.0  0.0]"
+      p16q		      on
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Line11"
+      SID		      "24"
+      Tag		      "PSATblock"
+      Description	      "Power Flow"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [145, 305, 205, 315]
+      ZOrder		      24
+      ShowName		      off
+      LibraryVersion	      "1.1192"
+      SourceBlock	      "fm_lib/Power Flow/Line"
+      SourceType	      "Line"
+      LConnTagsString	      "__newl0"
+      RConnTagsString	      "__newr0"
+      p3_4_5q		      "[100  400  60]"
+      p6q		      "0"
+      p8q		      "0.01"
+      p9q		      "0.10"
+      p10q		      "1e-3"
+      p13_14_15q	      "[0.0  0.0  0.0]"
+      p16q		      on
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Line12"
+      SID		      "25"
+      Tag		      "PSATblock"
+      Description	      "Power Flow"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [260, 390, 320, 400]
+      ZOrder		      25
+      ShowName		      off
+      LibraryVersion	      "1.1192"
+      SourceBlock	      "fm_lib/Power Flow/Line"
+      SourceType	      "Line"
+      LConnTagsString	      "__newl0"
+      RConnTagsString	      "__newr0"
+      p3_4_5q		      "[100  400  60]"
+      p6q		      "0"
+      p8q		      "0.01"
+      p9q		      "0.10"
+      p10q		      "1e-3"
+      p13_14_15q	      "[0.0  0.0  0.0]"
+      p16q		      on
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Line13"
+      SID		      "26"
+      Tag		      "PSATblock"
+      Description	      "Power Flow"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [280, 275, 340, 285]
+      ZOrder		      26
+      ShowName		      off
+      LibraryVersion	      "1.1192"
+      SourceBlock	      "fm_lib/Power Flow/Line"
+      SourceType	      "Line"
+      LConnTagsString	      "__newl0"
+      RConnTagsString	      "__newr0"
+      p3_4_5q		      "[100  400  60]"
+      p6q		      "0"
+      p8q		      "0.01"
+      p9q		      "0.10"
+      p10q		      "1e-3"
+      p13_14_15q	      "[0.0  0.0  0.0]"
+      p16q		      on
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Line2"
+      SID		      "15"
+      Tag		      "PSATblock"
+      Description	      "Power Flow"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [480, 330, 540, 340]
+      ZOrder		      15
+      ShowName		      off
+      LibraryVersion	      "1.1192"
+      SourceBlock	      "fm_lib/Power Flow/Line"
+      SourceType	      "Line"
+      LConnTagsString	      "__newl0"
+      RConnTagsString	      "__newr0"
+      p3_4_5q		      "[100  400  60]"
+      p6q		      "0"
+      p8q		      "0.01"
+      p9q		      "0.10"
+      p10q		      "1e-3"
+      p13_14_15q	      "[0.0  0.0  0.0]"
+      p16q		      on
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Line3"
+      SID		      "16"
+      Tag		      "PSATblock"
+      Description	      "Power Flow"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [525, 405, 585, 415]
+      ZOrder		      16
+      ShowName		      off
+      LibraryVersion	      "1.1192"
+      SourceBlock	      "fm_lib/Power Flow/Line"
+      SourceType	      "Line"
+      LConnTagsString	      "__newl0"
+      RConnTagsString	      "__newr0"
+      p3_4_5q		      "[100  400  60]"
+      p6q		      "0"
+      p8q		      "0.01"
+      p9q		      "0.10"
+      p10q		      "1e-3"
+      p13_14_15q	      "[0.0  0.0  0.0]"
+      p16q		      on
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Line4"
+      SID		      "41"
+      Tag		      "PSATblock"
+      Description	      "Power Flow"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [380, 405, 440, 415]
+      ZOrder		      40
+      ShowName		      off
+      LibraryVersion	      "1.1192"
+      SourceBlock	      "fm_lib/Power Flow/Line"
+      SourceType	      "Line"
+      LConnTagsString	      "__newl0"
+      RConnTagsString	      "__newr0"
+      p3_4_5q		      "[100  400  60]"
+      p6q		      "0"
+      p8q		      "0.01"
+      p9q		      "0.10"
+      p10q		      "1e-3"
+      p13_14_15q	      "[0.0  0.0  0.0]"
+      p16q		      on
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Line5"
+      SID		      "18"
+      Tag		      "PSATblock"
+      Description	      "Power Flow"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [285, 470, 295, 530]
+      ZOrder		      18
+      BlockRotation	      270
+      BlockMirror	      on
+      NamePlacement	      "alternate"
+      ShowName		      off
+      LibraryVersion	      "1.1192"
+      SourceBlock	      "fm_lib/Power Flow/Line"
+      SourceType	      "Line"
+      LConnTagsString	      "__newl0"
+      RConnTagsString	      "__newr0"
+      p3_4_5q		      "[100  400  60]"
+      p6q		      "0"
+      p8q		      "0.01"
+      p9q		      "0.10"
+      p10q		      "1e-3"
+      p13_14_15q	      "[0.0  0.0  0.0]"
+      p16q		      on
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Line6"
+      SID		      "19"
+      Tag		      "PSATblock"
+      Description	      "Power Flow"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [165, 595, 225, 605]
+      ZOrder		      19
+      ShowName		      off
+      LibraryVersion	      "1.1192"
+      SourceBlock	      "fm_lib/Power Flow/Line"
+      SourceType	      "Line"
+      LConnTagsString	      "__newl0"
+      RConnTagsString	      "__newr0"
+      p3_4_5q		      "[100  400  60]"
+      p6q		      "0"
+      p8q		      "0.01"
+      p9q		      "0.10"
+      p10q		      "1e-3"
+      p13_14_15q	      "[0.0  0.0  0.0]"
+      p16q		      on
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Line7"
+      SID		      "20"
+      Tag		      "PSATblock"
+      Description	      "Power Flow"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [370, 80, 430, 90]
+      ZOrder		      20
+      ShowName		      off
+      LibraryVersion	      "1.1192"
+      SourceBlock	      "fm_lib/Power Flow/Line"
+      SourceType	      "Line"
+      LConnTagsString	      "__newl0"
+      RConnTagsString	      "__newr0"
+      p3_4_5q		      "[100  400  60]"
+      p6q		      "0"
+      p8q		      "0.01"
+      p9q		      "0.10"
+      p10q		      "1e-3"
+      p13_14_15q	      "[0.0  0.0  0.0]"
+      p16q		      on
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Line8"
+      SID		      "21"
+      Tag		      "PSATblock"
+      Description	      "Power Flow"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [370, 105, 430, 115]
+      ZOrder		      21
+      ShowName		      off
+      LibraryVersion	      "1.1192"
+      SourceBlock	      "fm_lib/Power Flow/Line"
+      SourceType	      "Line"
+      LConnTagsString	      "__newl0"
+      RConnTagsString	      "__newr0"
+      p3_4_5q		      "[100  400  60]"
+      p6q		      "0"
+      p8q		      "0.01"
+      p9q		      "0.10"
+      p10q		      "1e-3"
+      p13_14_15q	      "[0.0  0.0  0.0]"
+      p16q		      on
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Line9"
+      SID		      "22"
+      Tag		      "PSATblock"
+      Description	      "Power Flow"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [110, 165, 120, 225]
+      ZOrder		      22
+      BlockRotation	      270
+      BlockMirror	      on
+      NamePlacement	      "alternate"
+      ShowName		      off
+      LibraryVersion	      "1.1192"
+      SourceBlock	      "fm_lib/Power Flow/Line"
+      SourceType	      "Line"
+      LConnTagsString	      "__newl0"
+      RConnTagsString	      "__newr0"
+      p3_4_5q		      "[100  400  60]"
+      p6q		      "0"
+      p8q		      "0.01"
+      p9q		      "0.10"
+      p10q		      "1e-3"
+      p13_14_15q	      "[0.0  0.0  0.0]"
+      p16q		      on
+    }
+    Block {
+      BlockType		      PMComponent
+      Name		      "Ocaña Nodo 4"
+      SID		      "4"
+      Tag		      "PSATblock"
+      Description	      "Connection"
+      Ports		      [0, 0, 0, 0, 0, 1, 3]
+      Position		      [552, 280, 608, 285]
+      ZOrder		      4
+      BlockRotation	      270
+      BlockMirror	      on
+      BackgroundColor	      "black"
+      PhysicalDomain	      "psatdomain"
+      LeftPortType	      "p1"
+      RightPortType	      "p1"
+      LConnTagsString	      "__newl0"
+      RConnTagsString	      "__newr0|__newr1|__newr2"
+      Object {
+	$PropName		"MaskObject"
+	$ObjectID		62
+	$ClassName		"Simulink.Mask"
+	Type			"Bus"
+	Description		"Bus block."
+	Initialization		"fm_inout\n\n"
+	SelfModifiable		"on"
+	Display			"plot([0 1 1 0 0],[0 0 1 1 0])"
+	IconFrame		"off"
+	IconRotate		"port"
+	Array {
+	  Type			  "Simulink.MaskParameter"
+	  Dimension		  6
+	  Object {
+	    $ObjectID		    63
+	    Type		    "edit"
+	    Name		    "in"
+	    Prompt		    "Number of inputs:"
+	    Value		    "1"
+	  }
+	  Object {
+	    $ObjectID		    64
+	    Type		    "edit"
+	    Name		    "out"
+	    Prompt		    "Number of outputs:"
+	    Value		    "3"
+	  }
+	  Object {
+	    $ObjectID		    65
+	    Type		    "edit"
+	    Name		    "p2q"
+	    Prompt		    "Voltage Rating [kV]"
+	    Value		    "400"
+	  }
+	  Object {
+	    $ObjectID		    66
+	    Type		    "edit"
+	    Name		    "p3_4q"
+	    Prompt		    "Voltage initial guess [p.u.  rad]"
+	    Value		    "[1.00  0.00]"
+	  }
+	  Object {
+	    $ObjectID		    67
+	    Type		    "edit"
+	    Name		    "p5q"
+	    Prompt		    "Area number"
+	    Value		    "1"
+	    Callback		    "fm_block"
+	  }
+	  Object {
+	    $ObjectID		    68
+	    Type		    "edit"
+	    Name		    "p6q"
+	    Prompt		    "Region number"
+	    Value		    "1"
+	  }
+	  PropName		  "Parameters"
+	}
+      }
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "PQ"
+      SID		      "28"
+      Tag		      "PSATblock"
+      Description	      "Power Flow"
+      Ports		      [0, 0, 0, 0, 0, 1]
+      Position		      [616, 235, 644, 260]
+      ZOrder		      28
+      BlockRotation	      270
+      BlockMirror	      on
+      NamePlacement	      "alternate"
+      ShowName		      off
+      LibraryVersion	      "1.1192"
+      SourceBlock	      "fm_lib/Power Flow/PQ"
+      SourceType	      "PQ"
+      LConnTagsString	      "__newl0"
+      p2_3q		      "[100  400]"
+      p4_5q		      "[0.80  0.60]"
+      p6_7q		      "[1.2  0.8]"
+      p8q		      on
+      p9q		      on
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "PQ1"
+      SID		      "30"
+      Tag		      "PSATblock"
+      Description	      "Power Flow"
+      Ports		      [0, 0, 0, 0, 0, 1]
+      Position		      [566, 340, 594, 365]
+      ZOrder		      30
+      BlockRotation	      270
+      BlockMirror	      on
+      NamePlacement	      "alternate"
+      ShowName		      off
+      LibraryVersion	      "1.1192"
+      SourceBlock	      "fm_lib/Power Flow/PQ"
+      SourceType	      "PQ"
+      LConnTagsString	      "__newl0"
+      p2_3q		      "[100  400]"
+      p4_5q		      "[0.80  0.60]"
+      p6_7q		      "[1.2  0.8]"
+      p8q		      on
+      p9q		      on
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "PQ2"
+      SID		      "32"
+      Tag		      "PSATblock"
+      Description	      "Power Flow"
+      Ports		      [0, 0, 0, 0, 0, 1]
+      Position		      [636, 495, 664, 520]
+      ZOrder		      32
+      BlockRotation	      270
+      BlockMirror	      on
+      NamePlacement	      "alternate"
+      ShowName		      off
+      LibraryVersion	      "1.1192"
+      SourceBlock	      "fm_lib/Power Flow/PQ"
+      SourceType	      "PQ"
+      LConnTagsString	      "__newl0"
+      p2_3q		      "[100  400]"
+      p4_5q		      "[0.80  0.60]"
+      p6_7q		      "[1.2  0.8]"
+      p8q		      on
+      p9q		      on
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "PQ3"
+      SID		      "33"
+      Tag		      "PSATblock"
+      Description	      "Power Flow"
+      Ports		      [0, 0, 0, 0, 0, 1]
+      Position		      [336, 505, 364, 530]
+      ZOrder		      33
+      BlockRotation	      270
+      BlockMirror	      on
+      NamePlacement	      "alternate"
+      ShowName		      off
+      LibraryVersion	      "1.1192"
+      SourceBlock	      "fm_lib/Power Flow/PQ"
+      SourceType	      "PQ"
+      LConnTagsString	      "__newl0"
+      p2_3q		      "[100  400]"
+      p4_5q		      "[0.80  0.60]"
+      p6_7q		      "[1.2  0.8]"
+      p8q		      on
+      p9q		      on
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "PQ4"
+      SID		      "36"
+      Tag		      "PSATblock"
+      Description	      "Power Flow"
+      Ports		      [0, 0, 0, 0, 0, 1]
+      Position		      [126, 720, 154, 745]
+      ZOrder		      36
+      BlockRotation	      270
+      BlockMirror	      on
+      NamePlacement	      "alternate"
+      ShowName		      off
+      LibraryVersion	      "1.1192"
+      SourceBlock	      "fm_lib/Power Flow/PQ"
+      SourceType	      "PQ"
+      LConnTagsString	      "__newl0"
+      p2_3q		      "[100  400]"
+      p4_5q		      "[0.80  0.60]"
+      p6_7q		      "[1.2  0.8]"
+      p8q		      on
+      p9q		      on
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "PV"
+      SID		      "27"
+      Tag		      "PSATblock"
+      Description	      "Power Flow"
+      Ports		      [0, 0, 0, 0, 0, 0, 1]
+      Position		      [490, 203, 525, 237]
+      ZOrder		      27
+      ShowName		      off
+      LibraryVersion	      "1.1192"
+      SourceBlock	      "fm_lib/Power Flow/PV"
+      SourceType	      "PV"
+      RConnTagsString	      "__newr0"
+      p2_3q		      "[100  400]"
+      p4q		      "0.8"
+      p5q		      "1.00"
+      p6_7q		      "[0.8  -0.2]"
+      p8_9q		      "[1.1  0.9]"
+      p10q		      "1"
+      p11q		      on
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "PV1"
+      SID		      "29"
+      Tag		      "PSATblock"
+      Description	      "Power Flow"
+      Ports		      [0, 0, 0, 0, 0, 0, 1]
+      Position		      [615, 293, 650, 327]
+      ZOrder		      29
+      BlockMirror	      on
+      NamePlacement	      "alternate"
+      ShowName		      off
+      LibraryVersion	      "1.1192"
+      SourceBlock	      "fm_lib/Power Flow/PV"
+      SourceType	      "PV"
+      RConnTagsString	      "__newr0"
+      p2_3q		      "[100  400]"
+      p4q		      "0.8"
+      p5q		      "1.00"
+      p6_7q		      "[0.8  -0.2]"
+      p8_9q		      "[1.1  0.9]"
+      p10q		      "1"
+      p11q		      on
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "PV2"
+      SID		      "31"
+      Tag		      "PSATblock"
+      Description	      "Power Flow"
+      Ports		      [0, 0, 0, 0, 0, 0, 1]
+      Position		      [560, 468, 595, 502]
+      ZOrder		      31
+      ShowName		      off
+      LibraryVersion	      "1.1192"
+      SourceBlock	      "fm_lib/Power Flow/PV"
+      SourceType	      "PV"
+      RConnTagsString	      "__newr0"
+      p2_3q		      "[100  400]"
+      p4q		      "0.8"
+      p5q		      "1.00"
+      p6_7q		      "[0.8  -0.2]"
+      p8_9q		      "[1.1  0.9]"
+      p10q		      "1"
+      p11q		      on
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "PV3"
+      SID		      "34"
+      Tag		      "PSATblock"
+      Description	      "Power Flow"
+      Ports		      [0, 0, 0, 0, 0, 0, 1]
+      Position		      [395, 483, 430, 517]
+      ZOrder		      34
+      BlockMirror	      on
+      NamePlacement	      "alternate"
+      ShowName		      off
+      LibraryVersion	      "1.1192"
+      SourceBlock	      "fm_lib/Power Flow/PV"
+      SourceType	      "PV"
+      RConnTagsString	      "__newr0"
+      p2_3q		      "[100  400]"
+      p4q		      "0.8"
+      p5q		      "1.00"
+      p6_7q		      "[0.8  -0.2]"
+      p8_9q		      "[1.1  0.9]"
+      p10q		      "1"
+      p11q		      on
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "PV4"
+      SID		      "35"
+      Tag		      "PSATblock"
+      Description	      "Power Flow"
+      Ports		      [0, 0, 0, 0, 0, 0, 1]
+      Position		      [55, 688, 90, 722]
+      ZOrder		      35
+      ShowName		      off
+      LibraryVersion	      "1.1192"
+      SourceBlock	      "fm_lib/Power Flow/PV"
+      SourceType	      "PV"
+      RConnTagsString	      "__newr0"
+      p2_3q		      "[100  400]"
+      p4q		      "0.8"
+      p5q		      "1.00"
+      p6_7q		      "[0.8  -0.2]"
+      p8_9q		      "[1.1  0.9]"
+      p10q		      "1"
+      p11q		      on
+    }
+    Block {
+      BlockType		      PMComponent
+      Name		      "Porce Nodo 12"
+      SID		      "12"
+      Tag		      "PSATblock"
+      Description	      "Connection"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [217, 345, 273, 350]
+      ZOrder		      12
+      BlockRotation	      270
+      BlockMirror	      on
+      BackgroundColor	      "black"
+      PhysicalDomain	      "psatdomain"
+      LeftPortType	      "p1"
+      RightPortType	      "p1"
+      LConnTagsString	      "__newl0"
+      RConnTagsString	      "__newr0"
+      Object {
+	$PropName		"MaskObject"
+	$ObjectID		69
+	$ClassName		"Simulink.Mask"
+	Type			"Bus"
+	Description		"Bus block."
+	Initialization		"fm_inout\n\n"
+	SelfModifiable		"on"
+	Display			"plot([0 1 1 0 0],[0 0 1 1 0])"
+	IconFrame		"off"
+	IconRotate		"port"
+	Array {
+	  Type			  "Simulink.MaskParameter"
+	  Dimension		  6
+	  Object {
+	    $ObjectID		    70
+	    Type		    "edit"
+	    Name		    "in"
+	    Prompt		    "Number of inputs:"
+	    Value		    "1"
+	  }
+	  Object {
+	    $ObjectID		    71
+	    Type		    "edit"
+	    Name		    "out"
+	    Prompt		    "Number of outputs:"
+	    Value		    "1"
+	  }
+	  Object {
+	    $ObjectID		    72
+	    Type		    "edit"
+	    Name		    "p2q"
+	    Prompt		    "Voltage Rating [kV]"
+	    Value		    "400"
+	  }
+	  Object {
+	    $ObjectID		    73
+	    Type		    "edit"
+	    Name		    "p3_4q"
+	    Prompt		    "Voltage initial guess [p.u.  rad]"
+	    Value		    "[1.00  0.00]"
+	  }
+	  Object {
+	    $ObjectID		    74
+	    Type		    "edit"
+	    Name		    "p5q"
+	    Prompt		    "Area number"
+	    Value		    "1"
+	    Callback		    "fm_block"
+	  }
+	  Object {
+	    $ObjectID		    75
+	    Type		    "edit"
+	    Name		    "p6q"
+	    Prompt		    "Region number"
+	    Value		    "1"
+	  }
+	  PropName		  "Parameters"
+	}
+      }
+    }
+    Block {
+      BlockType		      PMComponent
+      Name		      "Primavera Nodo 5"
+      SID		      "5"
+      Tag		      "PSATblock"
+      Description	      "Connection"
+      Ports		      [0, 0, 0, 0, 0, 2, 2]
+      Position		      [437, 380, 493, 385]
+      ZOrder		      5
+      BlockRotation	      270
+      BlockMirror	      on
+      BackgroundColor	      "black"
+      PhysicalDomain	      "psatdomain"
+      LeftPortType	      "p1"
+      RightPortType	      "p1"
+      LConnTagsString	      "__newl0|__newl1"
+      RConnTagsString	      "__newr0|__newr1"
+      Object {
+	$PropName		"MaskObject"
+	$ObjectID		76
+	$ClassName		"Simulink.Mask"
+	Type			"Bus"
+	Description		"Bus block."
+	Initialization		"fm_inout\n\n"
+	SelfModifiable		"on"
+	Display			"plot([0 1 1 0 0],[0 0 1 1 0])"
+	IconFrame		"off"
+	IconRotate		"port"
+	Array {
+	  Type			  "Simulink.MaskParameter"
+	  Dimension		  6
+	  Object {
+	    $ObjectID		    77
+	    Type		    "edit"
+	    Name		    "in"
+	    Prompt		    "Number of inputs:"
+	    Value		    "2"
+	  }
+	  Object {
+	    $ObjectID		    78
+	    Type		    "edit"
+	    Name		    "out"
+	    Prompt		    "Number of outputs:"
+	    Value		    "2"
+	  }
+	  Object {
+	    $ObjectID		    79
+	    Type		    "edit"
+	    Name		    "p2q"
+	    Prompt		    "Voltage Rating [kV]"
+	    Value		    "400"
+	  }
+	  Object {
+	    $ObjectID		    80
+	    Type		    "edit"
+	    Name		    "p3_4q"
+	    Prompt		    "Voltage initial guess [p.u.  rad]"
+	    Value		    "[1.00  0.00]"
+	  }
+	  Object {
+	    $ObjectID		    81
+	    Type		    "edit"
+	    Name		    "p5q"
+	    Prompt		    "Area number"
+	    Value		    "1"
+	    Callback		    "fm_block"
+	  }
+	  Object {
+	    $ObjectID		    82
+	    Type		    "edit"
+	    Name		    "p6q"
+	    Prompt		    "Region number"
+	    Value		    "1"
+	  }
+	  PropName		  "Parameters"
+	}
+      }
+    }
+    Block {
+      BlockType		      PMComponent
+      Name		      "Sabanalarga Nodo 2"
+      SID		      "2"
+      Tag		      "PSATblock"
+      Description	      "Connection"
+      Ports		      [0, 0, 0, 0, 0, 0, 2]
+      Position		      [482, 20, 538, 25]
+      ZOrder		      2
+      BlockRotation	      270
+      BlockMirror	      on
+      BackgroundColor	      "black"
+      PhysicalDomain	      "psatdomain"
+      LeftPortType	      "p1"
+      RightPortType	      "p1"
+      RConnTagsString	      "__newr0|__newr1"
+      Object {
+	$PropName		"MaskObject"
+	$ObjectID		83
+	$ClassName		"Simulink.Mask"
+	Type			"Bus"
+	Description		"Bus block."
+	Initialization		"fm_inout\n\n"
+	SelfModifiable		"on"
+	Display			"plot([0 1 1 0 0],[0 0 1 1 0])"
+	IconFrame		"off"
+	IconRotate		"port"
+	Array {
+	  Type			  "Simulink.MaskParameter"
+	  Dimension		  6
+	  Object {
+	    $ObjectID		    84
+	    Type		    "edit"
+	    Name		    "in"
+	    Prompt		    "Number of inputs:"
+	    Value		    "0"
+	  }
+	  Object {
+	    $ObjectID		    85
+	    Type		    "edit"
+	    Name		    "out"
+	    Prompt		    "Number of outputs:"
+	    Value		    "2"
+	  }
+	  Object {
+	    $ObjectID		    86
+	    Type		    "edit"
+	    Name		    "p2q"
+	    Prompt		    "Voltage Rating [kV]"
+	    Value		    "400"
+	  }
+	  Object {
+	    $ObjectID		    87
+	    Type		    "edit"
+	    Name		    "p3_4q"
+	    Prompt		    "Voltage initial guess [p.u.  rad]"
+	    Value		    "[1.00  0.00]"
+	  }
+	  Object {
+	    $ObjectID		    88
+	    Type		    "edit"
+	    Name		    "p5q"
+	    Prompt		    "Area number"
+	    Value		    "1"
+	    Callback		    "fm_block"
+	  }
+	  Object {
+	    $ObjectID		    89
+	    Type		    "edit"
+	    Name		    "p6q"
+	    Prompt		    "Region number"
+	    Value		    "1"
+	  }
+	  PropName		  "Parameters"
+	}
+      }
+    }
+    Block {
+      BlockType		      PMComponent
+      Name		      "San Carlos Nodo 7"
+      SID		      "7"
+      Tag		      "PSATblock"
+      Description	      "Connection"
+      Ports		      [0, 0, 0, 0, 0, 2, 3]
+      Position		      [322, 445, 378, 450]
+      ZOrder		      7
+      BlockRotation	      270
+      BlockMirror	      on
+      BackgroundColor	      "black"
+      PhysicalDomain	      "psatdomain"
+      LeftPortType	      "p1"
+      RightPortType	      "p1"
+      LConnTagsString	      "__newl0|__newl1"
+      RConnTagsString	      "__newr0|__newr1|__newr2"
+      Object {
+	$PropName		"MaskObject"
+	$ObjectID		90
+	$ClassName		"Simulink.Mask"
+	Type			"Bus"
+	Description		"Bus block."
+	Initialization		"fm_inout\n\n"
+	SelfModifiable		"on"
+	Display			"plot([0 1 1 0 0],[0 0 1 1 0])"
+	IconFrame		"off"
+	IconRotate		"port"
+	Array {
+	  Type			  "Simulink.MaskParameter"
+	  Dimension		  6
+	  Object {
+	    $ObjectID		    91
+	    Type		    "edit"
+	    Name		    "in"
+	    Prompt		    "Number of inputs:"
+	    Value		    "2"
+	  }
+	  Object {
+	    $ObjectID		    92
+	    Type		    "edit"
+	    Name		    "out"
+	    Prompt		    "Number of outputs:"
+	    Value		    "3"
+	  }
+	  Object {
+	    $ObjectID		    93
+	    Type		    "edit"
+	    Name		    "p2q"
+	    Prompt		    "Voltage Rating [kV]"
+	    Value		    "400"
+	  }
+	  Object {
+	    $ObjectID		    94
+	    Type		    "edit"
+	    Name		    "p3_4q"
+	    Prompt		    "Voltage initial guess [p.u.  rad]"
+	    Value		    "[1.00  0.00]"
+	  }
+	  Object {
+	    $ObjectID		    95
+	    Type		    "edit"
+	    Name		    "p5q"
+	    Prompt		    "Area number"
+	    Value		    "1"
+	    Callback		    "fm_block"
+	  }
+	  Object {
+	    $ObjectID		    96
+	    Type		    "edit"
+	    Name		    "p6q"
+	    Prompt		    "Region number"
+	    Value		    "1"
+	  }
+	  PropName		  "Parameters"
+	}
+      }
+    }
+    Block {
+      BlockType		      PMComponent
+      Name		      "San Marcos Nodo 9"
+      SID		      "9"
+      Tag		      "PSATblock"
+      Description	      "Connection"
+      Ports		      [0, 0, 0, 0, 0, 1, 2]
+      Position		      [97, 660, 153, 665]
+      ZOrder		      9
+      BlockRotation	      270
+      BlockMirror	      on
+      BackgroundColor	      "black"
+      PhysicalDomain	      "psatdomain"
+      LeftPortType	      "p1"
+      RightPortType	      "p1"
+      LConnTagsString	      "__newl0"
+      RConnTagsString	      "__newr0|__newr1"
+      Object {
+	$PropName		"MaskObject"
+	$ObjectID		97
+	$ClassName		"Simulink.Mask"
+	Type			"Bus"
+	Description		"Bus block."
+	Initialization		"fm_inout\n\n"
+	SelfModifiable		"on"
+	Display			"plot([0 1 1 0 0],[0 0 1 1 0])"
+	IconFrame		"off"
+	IconRotate		"port"
+	Array {
+	  Type			  "Simulink.MaskParameter"
+	  Dimension		  6
+	  Object {
+	    $ObjectID		    98
+	    Type		    "edit"
+	    Name		    "in"
+	    Prompt		    "Number of inputs:"
+	    Value		    "1"
+	  }
+	  Object {
+	    $ObjectID		    99
+	    Type		    "edit"
+	    Name		    "out"
+	    Prompt		    "Number of outputs:"
+	    Value		    "2"
+	  }
+	  Object {
+	    $ObjectID		    100
+	    Type		    "edit"
+	    Name		    "p2q"
+	    Prompt		    "Voltage Rating [kV]"
+	    Value		    "400"
+	  }
+	  Object {
+	    $ObjectID		    101
+	    Type		    "edit"
+	    Name		    "p3_4q"
+	    Prompt		    "Voltage initial guess [p.u.  rad]"
+	    Value		    "[1.00  0.00]"
+	  }
+	  Object {
+	    $ObjectID		    102
+	    Type		    "edit"
+	    Name		    "p5q"
+	    Prompt		    "Area number"
+	    Value		    "1"
+	    Callback		    "fm_block"
+	  }
+	  Object {
+	    $ObjectID		    103
+	    Type		    "edit"
+	    Name		    "p6q"
+	    Prompt		    "Region number"
+	    Value		    "1"
+	  }
+	  PropName		  "Parameters"
+	}
+      }
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Slack"
+      SID		      "37"
+      Tag		      "PSATblock"
+      Description	      "Power Flow"
+      Ports		      [0, 0, 0, 0, 0, 0, 1]
+      Position		      [245, 33, 280, 67]
+      ZOrder		      37
+      ShowName		      off
+      LibraryVersion	      "1.1192"
+      SourceBlock	      "fm_lib/Power Flow/Slack"
+      SourceType	      "SW"
+      RConnTagsString	      "__newr0"
+      p2_3q		      "[100  400]"
+      p4q		      "1.00"
+      p5q		      "0.00"
+      p6_7q		      "[1.5  -1.5]"
+      p8_9q		      "[1.1  0.9]"
+      p10q		      "0.80"
+      p11q		      "1"
+      p12q		      on
+      p13q		      on
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      49
+      SrcBlock		      "Line"
+      SrcPort		      LConn1
+      Points		      [-40, 0]
+      DstBlock		      "Bolivar Nodo 1"
+      DstPort		      RConn2
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      2
+      SrcBlock		      "Line"
+      SrcPort		      RConn1
+      Points		      [120, 0]
+      DstBlock		      "Copey Nodo 3"
+      DstPort		      LConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      4
+      SrcBlock		      "Line1"
+      SrcPort		      RConn1
+      Points		      [-10, 0]
+      DstBlock		      "Ocaña Nodo 4"
+      DstPort		      LConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      5
+      SrcBlock		      "Ocaña Nodo 4"
+      SrcPort		      RConn1
+      Points		      [0, 35]
+      DstBlock		      "Line2"
+      DstPort		      RConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      6
+      SrcBlock		      "Line2"
+      SrcPort		      LConn1
+      Points		      [15, 0]
+      DstBlock		      "Primavera Nodo 5"
+      DstPort		      LConn2
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      9
+      SrcBlock		      "Line3"
+      SrcPort		      RConn1
+      Points		      [35, 0]
+      DstBlock		      "Bacata Nodo 6"
+      DstPort		      LConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      20
+      SrcBlock		      "Line5"
+      SrcPort		      LConn1
+      Points		      [40, 0]
+      DstBlock		      "San Carlos Nodo 7"
+      DstPort		      RConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      22
+      SrcBlock		      "Line5"
+      SrcPort		      RConn1
+      Points		      [-45, 0]
+      DstBlock		      "Esmeralda Nodo 8"
+      DstPort		      LConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      23
+      SrcBlock		      "Esmeralda Nodo 8"
+      SrcPort		      RConn1
+      Points		      [0, 25]
+      DstBlock		      "Line6"
+      DstPort		      RConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      24
+      SrcBlock		      "Line6"
+      SrcPort		      LConn1
+      Points		      [-25, 0]
+      DstBlock		      "San Marcos Nodo 9"
+      DstPort		      LConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      25
+      SrcBlock		      "Line7"
+      SrcPort		      LConn1
+      Points		      [-240, 0]
+      DstBlock		      "Chinu Nodo 10"
+      DstPort		      LConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      26
+      SrcBlock		      "Line7"
+      SrcPort		      RConn1
+      Points		      [50, 0]
+      DstBlock		      "Sabanalarga Nodo 2"
+      DstPort		      RConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      27
+      SrcBlock		      "Line8"
+      SrcPort		      LConn1
+      Points		      [-215, 0]
+      DstBlock		      "Chinu Nodo 10"
+      DstPort		      LConn2
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      28
+      SrcBlock		      "Line8"
+      SrcPort		      RConn1
+      Points		      [80, 0]
+      DstBlock		      "Sabanalarga Nodo 2"
+      DstPort		      RConn2
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      31
+      SrcBlock		      "Line9"
+      SrcPort		      LConn1
+      DstBlock		      "Chinu Nodo 10"
+      DstPort		      RConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      32
+      SrcBlock		      "Line9"
+      SrcPort		      RConn1
+      DstBlock		      "Cerramotoso Nodo 11"
+      DstPort		      LConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      33
+      SrcBlock		      "Cerramotoso Nodo 11"
+      SrcPort		      RConn1
+      Points		      [0, 35]
+      DstBlock		      "Line11"
+      DstPort		      LConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      34
+      SrcBlock		      "Line11"
+      SrcPort		      RConn1
+      Points		      [25, 0]
+      DstBlock		      "Porce Nodo 12"
+      DstPort		      LConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      35
+      SrcBlock		      "Porce Nodo 12"
+      SrcPort		      RConn1
+      DstBlock		      "Line12"
+      DstPort		      LConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      36
+      SrcBlock		      "Line12"
+      SrcPort		      RConn1
+      DstBlock		      "San Carlos Nodo 7"
+      DstPort		      LConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      37
+      SrcBlock		      "Line13"
+      SrcPort		      LConn1
+      Points		      [-125, 0]
+      DstBlock		      "Cerramotoso Nodo 11"
+      DstPort		      RConn2
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      38
+      SrcBlock		      "Line13"
+      SrcPort		      RConn1
+      Points		      [70, 0; 0, 85]
+      DstBlock		      "Primavera Nodo 5"
+      DstPort		      LConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      39
+      SrcBlock		      "PV"
+      SrcPort		      RConn1
+      Points		      [30, 0]
+      DstBlock		      "Copey Nodo 3"
+      DstPort		      RConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      40
+      SrcBlock		      "Copey Nodo 3"
+      SrcPort		      RConn3
+      Points		      [0, 8; 20, 0]
+      DstBlock		      "PQ"
+      DstPort		      LConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      41
+      SrcBlock		      "Ocaña Nodo 4"
+      SrcPort		      RConn2
+      DstBlock		      "PQ1"
+      DstPort		      LConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      42
+      SrcBlock		      "PV1"
+      SrcPort		      RConn1
+      DstBlock		      "Ocaña Nodo 4"
+      DstPort		      RConn3
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      43
+      SrcBlock		      "Bacata Nodo 6"
+      SrcPort		      RConn2
+      DstBlock		      "PQ2"
+      DstPort		      LConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      44
+      SrcBlock		      "PV2"
+      SrcPort		      RConn1
+      Points		      [10, 0]
+      DstBlock		      "Bacata Nodo 6"
+      DstPort		      RConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      45
+      SrcBlock		      "San Carlos Nodo 7"
+      SrcPort		      RConn2
+      DstBlock		      "PQ3"
+      DstPort		      LConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      46
+      SrcBlock		      "San Carlos Nodo 7"
+      SrcPort		      RConn3
+      Points		      [0, 35]
+      DstBlock		      "PV3"
+      DstPort		      RConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      47
+      SrcBlock		      "San Marcos Nodo 9"
+      SrcPort		      RConn1
+      Points		      [0, 25]
+      DstBlock		      "PV4"
+      DstPort		      RConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      48
+      SrcBlock		      "San Marcos Nodo 9"
+      SrcPort		      RConn2
+      DstBlock		      "PQ4"
+      DstPort		      LConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      50
+      SrcBlock		      "Bolivar Nodo 1"
+      SrcPort		      RConn1
+      Points		      [0, 10]
+      DstBlock		      "Slack"
+      DstPort		      RConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      53
+      SrcBlock		      "Line3"
+      SrcPort		      LConn1
+      Points		      [-30, 0]
+      DstBlock		      "Primavera Nodo 5"
+      DstPort		      RConn2
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      56
+      SrcBlock		      "Line1"
+      SrcPort		      LConn1
+      DstBlock		      "Copey Nodo 3"
+      DstPort		      RConn2
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      57
+      SrcBlock		      "Line4"
+      SrcPort		      RConn1
+      Points		      [-5, 0]
+      DstBlock		      "Primavera Nodo 5"
+      DstPort		      RConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      58
+      SrcBlock		      "Line4"
+      SrcPort		      LConn1
+      DstBlock		      "San Carlos Nodo 7"
+      DstPort		      LConn2
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      59
+      SrcBlock		      "Line10"
+      SrcPort		      LConn1
+      DstBlock		      "Chinu Nodo 10"
+      DstPort		      RConn2
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      60
+      SrcBlock		      "Line10"
+      SrcPort		      RConn1
+      DstBlock		      "Cerramotoso Nodo 11"
+      DstPort		      LConn2
+    }
+    Annotation {
+      SID		      "39"
+      Name		      "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+      "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }"
+      "\n</style></head><body style=\" font-family:'Helvetica'; font-size:10px; font-weight:400; font-style:normal;\">\n"
+      "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-ind"
+      "ent:0; text-indent:0px;\"><span style=\" font-size:18pt;\">Unifilar Nacional</span></p></body></html>"
+      Position		      [18, 30, 207, 60]
+      InternalMargins	      [0, 0, 0, 0]
+      FixedHeight	      on
+      FixedWidth	      on
+      HorizontalAlignment     "left"
+      VerticalAlignment	      "top"
+      Interpreter	      "rich"
+    }
+  }
+}
